@@ -1,0 +1,12 @@
+block content
+
+    form(id="dane_get" action ="/messages/send",method="get")
+        input(type="text", name="message",value="",placeholder="wpisz wiadomosc")
+        button(type="submit") wyślij  
+    form(id="dane_get" action ="/",method="get")
+        button(type="submit") Powrót
+    ul
+        each val in tab
+            li= val
+
+    meta(http-equiv="Refresh", content="10")

@@ -1,0 +1,12 @@
+block content
+    form(id="dane_post" action ="/dane",method="post")
+        input(type="text", name="imie",value="",placeholder="Tu imie")
+        br
+        input(type="text", name="nazwisko",value="",placeholder="Tu nazwisko")
+        button(type="submit") POST 2 DANE
+    br
+    form(id="dane_get" action ="/dane/form",method="get")
+        input(type="text", name="imie",value="",placeholder="Tu imie")
+        br
+        input(type="text", name="nazwisko",value="",placeholder="Tu nazwisko")
+        button(type="submit") GET 2 DANE
